@@ -2,8 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .para {
   font-size: 22px;
 }
@@ -19,6 +17,8 @@ body {
   font-weight: 800;
 }
 
+/* in this case the common elements had to be above after the unique elements*/
+
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -30,6 +30,13 @@ body {
   color: white;
   font-weight: bold;
 } 
+/*the id selector had to be used to differentiate the styling*/
+
+div .text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
 
 div.text {
   color: rgb(0, 0, 0);
@@ -37,9 +44,5 @@ div.text {
   font-weight: 100;
 }
 
-div .text .child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+
 
